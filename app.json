@@ -13,9 +13,6 @@
     }
   ],
   "buildpacks": [
-    {
-      "url": "dqe-software/dqe-unify-buildpack"
-    },
 	{
 	  "url": "heroku/python"
 	}
