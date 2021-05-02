@@ -1,4 +1,5 @@
 {
+  "name": "DQE-UNIFY",
   "description": "Automatique installation of the dqe unify service",
   "stack": "heroku-18",
   "addons": [
