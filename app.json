@@ -3,7 +3,6 @@
   "description": "Automatique installation of the dqe unify service",
   "stack": "heroku-18",
   "addons": [
-    "dqe-unify-server-v2",
 	{
       "plan": "heroku-redis:hobby-dev"
     },
