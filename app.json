@@ -1,15 +1,13 @@
 {
-  "name": "DQE_UNIFY",
+  "name": "unify",
   "description": "Automatique installation of the dqe unify service",
   "stack": "heroku-18",
   "addons": [
 	{
-      "plan": "heroku-redis:hobby-dev",
-      "as": "Heroku Redis"
+      "plan": "heroku-redis:hobby-dev"
     },
 	{
-      "plan": "cloudamqp:lemur",
-      "as": "CloudAMQP"
+      "plan": "cloudamqp:lemur"
     }
   ],
   "buildpacks": [
