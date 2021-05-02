@@ -1,12 +1,16 @@
 {
-  "name": "DQE Unify Button",
+  "name": "DQE Unify",
   "description": "Automatique installation of the dqe unify service",
+  "stack": "heroku-18",
   "addons": [
     "dqe-unify-server-v2"
   ],
   "buildpacks": [
     {
       "url": "dqe-software/dqe-unify-buildpack"
-    }
+    },
+	{
+	  "url": "heroku/python"
+	}
   ]
 }
