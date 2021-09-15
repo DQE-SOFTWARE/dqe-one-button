@@ -8,6 +8,9 @@
         },
         {
             "plan": "cloudamqp:lemur"
+        },
+        {
+            "plan": "dqe-unify-server-v2:dqe-unify"
         }
     ],
     "buildpacks": [
