@@ -17,8 +17,5 @@
         {
             "url": "heroku/python"
         }
-    ],
-    "scripts": {
-        "postdeploy": "git push heroku master"
-    }
+    ]
 }
