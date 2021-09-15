@@ -1,21 +1,24 @@
 {
-  "name": "unify",
-  "description": "Automatique installation of the dqe unify service",
-  "stack": "heroku-18",
-  "addons": [
-	{
-      "plan": "heroku-redis:hobby-dev"
-    },
-	{
-      "plan": "cloudamqp:lemur"
+    "name": "unify",
+    "description": "Automatique installation of the dqe unify service",
+    "stack": "heroku-18",
+    "addons": [
+        {
+            "plan": "heroku-redis:hobby-dev"
+        },
+        {
+            "plan": "cloudamqp:lemur"
+        }
+    ],
+    "buildpacks": [
+        {
+            "url": "dqe-software/dqe-unify-buildpack"
+        },
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "scripts": {
+        "postdeploy": "git push heroku master"
     }
-  ],
-  "buildpacks": [
-	{
-      "url": "dqe-software/dqe-unify-buildpack"
-    },
-	{
-	  "url": "heroku/python"
-	}
-  ]
 }
