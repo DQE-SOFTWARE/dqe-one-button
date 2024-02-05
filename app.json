@@ -1,7 +1,7 @@
 {
-    "name": "unify",
-    "description": "Automatique installation of the dqe unify service",
-    "stack": "heroku-18",
+    "name": "",
+    "description": "Automatique installation of the dqe one service",
+    "stack": "heroku-22",
     "addons": [
         {
             "plan": "dqe-one-server:v1-1"
