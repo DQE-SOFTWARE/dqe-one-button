@@ -4,6 +4,9 @@
     "stack": "heroku-18",
     "addons": [
         {
+            "plan": "dqe-one-server:v1-1"
+        },
+        {
             "plan": "heroku-redis:hobby-dev"
         },
         {
@@ -12,10 +15,13 @@
     ],
     "buildpacks": [
         {
-            "url": "dqe-software/dqe-unify-buildpack"
+            "url": "dqe-software/dqe-one-buildpack"
         },
         {
             "url": "heroku/python"
+        },
+        {
+            "url": "dqe-software/dqe-unify-bsddb3-buildpack"
         }
     ]
 }
