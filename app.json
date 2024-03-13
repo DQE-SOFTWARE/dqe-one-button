@@ -7,7 +7,7 @@
             "plan": "dqe-one-server:v1-1"
         },
         {
-            "plan": "heroku-redis:hobby-dev"
+            "plan": "heroku-redis:mini"
         },
         {
             "plan": "cloudamqp:lemur"
